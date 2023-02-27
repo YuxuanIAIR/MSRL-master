@@ -38,4 +38,4 @@ python test.py --dataset <dataset_name> --gpu <gpu_id>
 
 # Training
 
-# Acknowledge
+# Acknowledgement
