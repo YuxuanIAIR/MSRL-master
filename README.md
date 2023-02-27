@@ -30,12 +30,24 @@ Official code for AAAI 2023 paper "Multi-stream Representation Learning for Pede
     ```
 
 # Evaluation
-Download the pre-trained models from BaiduYun. Then unZip and put it in the project folder.
-Run the following and you will be able to reproduce the main result in our paper.
+Download the pre-trained models from [GoogleDrive](https://drive.google.com/file/d/11zNG_QMD8oXQwx46S6FY2z5Hqsnmh7rD/view?usp=sharing). Then unZip and put it under the project folder.
+Run the following and then you will be able to reproduce the main results in our paper. 
+<dataset_name> can be eth, hotel, univ, zara1, zara2 and sdd.
 ```
 python test.py --dataset <dataset_name> --gpu <gpu_id>
 ```
 
 # Training
+This model requires **two-stage** training.
+1. Train the Multi-stream Representation Learning based CVAE model
+    ```
+    python trainvae.py --dataset <dataset_name> --gpu <gpu_id>
+    ```
+2. Train the sampler model
+    ```
+    python trainsampler.py --dataset <dataset_name> --gpu <gpu_id>
+    ```
+You can modify the configuration by giving different parameters.
 
 # Acknowledgement
+Thanks for the ETH-UCY data processing from [SGCN](https://github.com/shuaishiliu/SGCN) and SDD data provided by [PECNet](https://github.com/j2k0618/PECNet_nuScenes).
