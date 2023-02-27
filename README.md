@@ -30,7 +30,7 @@ Official code for AAAI 2023 paper "Multi-stream Representation Learning for Pede
     ```
 
 # Evaluation
-Download the pre-trained models from [GoogleDrive](https://drive.google.com/file/d/11zNG_QMD8oXQwx46S6FY2z5Hqsnmh7rD/view?usp=sharing). Then unZip and put it under the project folder.
+Download the pre-trained models from [GoogleDrive](https://drive.google.com/file/d/11zNG_QMD8oXQwx46S6FY2z5Hqsnmh7rD/view?usp=sharing). Then unzip and put it under the project folder.
 Run the following and then you will be able to reproduce the main results in our paper. 
 <dataset_name> can be eth, hotel, univ, zara1, zara2 and sdd.
 ```
