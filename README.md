@@ -18,8 +18,16 @@ Official code for AAAI 2023 paper "Multi-stream Representation Learning for Pede
 # Installation
 
 ## Environment
+* Tested OS: Ubuntu18.04 LTS
+* Python >= 3.7
+* PyTorch == 1.8.0
 
 ## Dependencies
+1. Install [PyTorch 1.8.0](https://pytorch.org/get-started/previous-versions/) with the correct CUDA version.
+2. Install the dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
 
 # Evaluation
 pre-trained models
