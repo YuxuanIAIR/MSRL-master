@@ -18,7 +18,7 @@ Official code for AAAI 2023 paper "Multi-stream Representation Learning for Pede
 # Installation
 
 ## Environment
-* Tested OS: Ubuntu18.04 LTS
+* Tested OS: Ubuntu 18.04 LTS / RTX3090
 * Python >= 3.7
 * PyTorch == 1.8.0
 
@@ -30,7 +30,11 @@ Official code for AAAI 2023 paper "Multi-stream Representation Learning for Pede
     ```
 
 # Evaluation
-pre-trained models
+Download the pre-trained models from BaiduYun. Then unZip and put it in the project folder.
+Run the following and you will be able to reproduce the main result in our paper.
+```
+python test.py --dataset <dataset_name> --gpu <gpu_id>
+```
 
 # Training
 
