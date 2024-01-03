@@ -1,0 +1,6 @@
+torch~=1.8.0+cu111
+numpy~=1.21.2
+glob2~=0.7
+tqdm~=4.62.3
+seaborn~=0.11.2
+matplotlib~=3.4.3
