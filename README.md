@@ -75,3 +75,20 @@ You can modify the configuration by giving different parameters.
 # Acknowledgement
 
 Thanks for the ETH-UCY data processing from [SGCN](https://github.com/shuaishiliu/SGCN) and SDD data provided by [PECNet](https://github.com/j2k0618/PECNet_nuScenes).
+
+
+# Citation
+
+If you find this repo useful, please consider citing our paper
+
+```
+@inproceedings{wu2023multi,
+  title={Multi-stream representation learning for pedestrian trajectory prediction},
+  author={Wu, Yuxuan and Wang, Le and Zhou, Sanping and Duan, Jinghai and Hua, Gang and Tang, Wei},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={3},
+  pages={2875--2882},
+  year={2023}
+}
+```
