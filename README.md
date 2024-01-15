@@ -1,5 +1,5 @@
-# Multi-stream Representation Learning for Pedestrian Trajectory Prediction
-Official code for AAAI 2023 paper "[Multi-stream Representation Learning for Pedestrian Trajectory Prediction](https://drive.google.com/file/d/1ZrHmC00bOAuKaXuEmJbqWgLjt89yixsV/view?usp=drive_link)"
+# Multi-Stream Representation Learning for Pedestrian Trajectory Prediction
+Official code for AAAI 2023 paper "[Multi-Stream Representation Learning for Pedestrian Trajectory Prediction](https://drive.google.com/file/d/1ZrHmC00bOAuKaXuEmJbqWgLjt89yixsV/view?usp=drive_link)"
 
 # Framework
 
@@ -79,7 +79,7 @@ Thanks for the ETH-UCY data processing from [SGCN](https://github.com/shuaishili
 
 # Citation
 
-If you find this repo useful, please consider citing our paper
+If you find this repo helpful, please consider citing our paper
 
 ```
 @inproceedings{wu2023multi,
